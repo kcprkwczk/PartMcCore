@@ -1,0 +1,9 @@
+name: Core
+version: '1.0-SNAPSHOT'
+main: net.partmc.core.Core
+api-version: '1.20'
+
+commands:
+  hello:
+    description: Hello Command
+    usage: /<command>
