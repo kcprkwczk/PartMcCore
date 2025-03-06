@@ -1,10 +1,12 @@
 # Prefix, który pojawi się przed każdą wiadomością
 prefix: "&6Part&bMc"
 
-# Czas oczekiwania na teleportację (w sekundach)
-wait-time: 3
+# Czasy oczekiwania zależnie od uprawnień
+wait-times:
+  default: 5    # dla zwykłych graczy
+  vip: 3        # dla graczy z uprawnieniem partmc.rtp.vip
+  admin: 0
 
-# Zakres losowych współrzędnych względem punktu 0,0
 range:
   min-x: -1000
   max-x: 1000

@@ -1,0 +1,5 @@
+rtp:
+  waitMessage: "&eTeleportacja nastąpi za chwilę. Nie ruszaj się! ($WAIT_TIME sekund)"
+  teleportWithoutWaiting: "&eZa chwilę zostaniesz teleportowany!"
+  teleportedMessage: "&aTeleportowano do: X=$X, Y=$Y, Z=$Z"
+  cancelMessage: "&cTeleportacja anulowana – poruszyłeś się!"
