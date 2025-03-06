@@ -7,3 +7,10 @@ commands:
   rtp:
     description: Random Teleport Command
     usage: /<command>
+  warp:
+    description: Teleports to a saved warp.
+    usage: /warp <warpName>
+  setwarp:
+      description: Sets a warp at your location.
+      usage: /setwarp <warpName>
+      permission: partmc.setwarp
