@@ -2,4 +2,16 @@ rtp:
   waitMessage: "&eTeleportacja nastąpi za chwilę. Nie ruszaj się! ($WAIT_TIME sekund)"
   teleportWithoutWaiting: "&eZa chwilę zostaniesz teleportowany!"
   teleportedMessage: "&aTeleportowano do: X=$X, Y=$Y, Z=$Z"
-  cancelMessage: "&cTeleportacja anulowana – poruszyłeś się!"
+warp:
+  usage: "&cUżycie: /warp <nazwa>"
+  setUsage: "&cUżycie: /setwarp <nazwa>"
+  notFound: "&cWarp $WARP nie istnieje!"
+  success: "&aTeleportowano do warpa $WARP!"
+  setSuccess: "&aPomyślnie stworzono nowy warp!"
+  list: "&aDostępne warpy: $WARPS"
+  noWarpsAvailable: "&cBrak dostępnych warpów!"
+  waitMessage: "&eCzekaj $WAIT_TIME sekund na teleportację..."
+  teleportWithoutWaiting: "&aTeleportuję natychmiast!"
+  teleportedMessage: "&aTeleportowano na współrzędne X:$X Y:$Y Z:$Z"
+teleport:
+  cancelMessage: "&cTeleportacja anulowana - nie ruszaj się!"
