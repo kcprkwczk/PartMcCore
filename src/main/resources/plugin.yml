@@ -11,6 +11,25 @@ commands:
     description: Teleports to a saved warp.
     usage: /warp <warpName>
   setwarp:
-      description: Sets a warp at your location.
-      usage: /setwarp <warpName>
-      permission: partmc.setwarp
+    description: Sets a warp at your location.
+    usage: /setwarp <warpName>
+    permission: partmc.setwarp
+  spawn:
+    description: Teleports you to the spawn location.
+    usage: /spawn
+  setspawn:
+    description: Sets the server spawn location.
+    usage: /setspawn
+    permission: partmc.admin
+  msg:
+    description: Wysyła prywatną wiadomość do gracza.
+    usage: /msg <gracz> <wiadomość>
+  r:
+    description: Odpowiada na ostatnią wiadomość prywatną.
+    usage: /r <wiadomość>
+  home:
+    description: Teleportuje do zapisanej lokalizacji domu.
+    usage: /home
+  sethome:
+    description: Ustawia lokalizację domu.
+    usage: /sethome

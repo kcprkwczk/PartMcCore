@@ -1,11 +1,8 @@
 package net.partmc.core.commands
 
-import io.papermc.lib.PaperLib
 import net.kyori.adventure.text.Component
 import net.partmc.core.utils.ConfigUtils
 import net.partmc.core.utils.TeleportUtils
-import net.partmc.core.utils.TranslationUtils.getPrefixedTranslation
-import org.bukkit.Bukkit
 import org.bukkit.Location
 import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
@@ -13,7 +10,7 @@ import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
 import kotlin.random.Random
 
-class RtpCommand : CommandExecutor {
+class rtpCommand : CommandExecutor {
 
     override fun onCommand(
         sender: CommandSender,

@@ -2,6 +2,7 @@ rtp:
   waitMessage: "&eTeleportacja nastąpi za chwilę. Nie ruszaj się! ($WAIT_TIME sekund)"
   teleportWithoutWaiting: "&eZa chwilę zostaniesz teleportowany!"
   teleportedMessage: "&aTeleportowano do: X=$X, Y=$Y, Z=$Z"
+
 warp:
   usage: "&cUżycie: /warp <nazwa>"
   setUsage: "&cUżycie: /setwarp <nazwa>"
@@ -13,5 +14,29 @@ warp:
   waitMessage: "&eCzekaj $WAIT_TIME sekund na teleportację..."
   teleportWithoutWaiting: "&aTeleportuję natychmiast!"
   teleportedMessage: "&aTeleportowano na współrzędne X:$X Y:$Y Z:$Z"
+
+spawn:
+  waitMessage: "&eZa $WAIT_TIME sekund zostaniesz teleportowany na spawn. Nie ruszaj się!"
+  teleportWithoutWaiting: "&aTeleportacja na spawn natychmiastowa!"
+  teleportedMessage: "&aZostałeś teleportowany na spawn!"
+  notSet: "&cSpawn nie został jeszcze ustawiony!"
+  setSuccess: "&aPomyślnie ustawiono spawn"
+  noPermission: "&cNie masz uprawnień do ustawienia spawna!"
+
 teleport:
   cancelMessage: "&cTeleportacja anulowana - nie ruszaj się!"
+
+msg:
+  usage: "&cUżycie: /msg <gracz> <wiadomość>"
+  sent: "&7(Wiadomość do &bPLAYER&7) &fMESSAGE"
+  received: "&7(Wiadomość od &bPLAYER&7) &fMESSAGE"
+  playerNotFound: "&cGracz o nicku PLAYER nie został znaleziony!"
+reply:
+  usage: "&cUżycie: /r <wiadomość>"
+  noRecentMessage: "&cNie masz żadnej ostatniej rozmowy!"
+home:
+  setSuccess: "Twój dom został zapisany!"
+  notSet: "Nie masz ustawionego domu! Użyj /sethome."
+  waitMessage: "&7Teleportacja do domu za &e$WAIT_TIME &7sekund..."
+  teleportWithoutWaiting: "&aTeleportacja do domu natychmiastowa!"
+  teleportedMessage: "&aZostałeś teleportowany do domu!"
