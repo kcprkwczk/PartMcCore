@@ -1,8 +1,6 @@
 package net.partmc.core
 
-import net.partmc.core.commands.RtpCommand
-import net.partmc.core.commands.SetWarpCommand
-import net.partmc.core.commands.WarpCommand
+import net.partmc.core.commands.*
 import net.partmc.core.listeners.MoveCancelListener
 import net.partmc.core.utils.WarpManager
 import org.bukkit.plugin.java.JavaPlugin
@@ -15,9 +13,15 @@ class Core : JavaPlugin() {
         saveDefaultConfig()
         WarpManager.loadWarps()
 
-        getCommand("rtp")?.setExecutor(RtpCommand())
+        getCommand("rtp")?.setExecutor(rtpCommand())
         getCommand("warp")?.setExecutor(WarpCommand())
         getCommand("setwarp")?.setExecutor(SetWarpCommand())
+        getCommand("spawn")?.setExecutor(SpawnCommand())
+        getCommand("setspawn")?.setExecutor(SetSpawnCommand())
+        getCommand("msg")?.setExecutor(MsgCommand())
+        getCommand("r")?.setExecutor(ReplyCommand())
+        getCommand("home")?.setExecutor(HomeCommand())
+        getCommand("sethome")?.setExecutor(SetHomeCommand())
 
         server.pluginManager.registerEvents(MoveCancelListener(), this)
         logger.info("PartMC Core plugin has been enabled.")
